@@ -27,3 +27,5 @@ j += 1;
 
 
 document.write("Pienin Temp on:" + minTemp);
+
+

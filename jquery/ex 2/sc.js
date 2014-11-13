@@ -7,4 +7,4 @@ $("#fdiv").append("<p>Added div</p>");
 $("#alink").text("Metropolia UAS");
 
 
-});
+// });

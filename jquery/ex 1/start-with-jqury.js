@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-	// Hide parag including a word!
+	// Hide parag including
 	//$("p:contains('first')").hide();
 
 	// add a class

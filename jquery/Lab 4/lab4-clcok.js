@@ -1,5 +1,5 @@
 
-
+/*
 
 $(document).ready(function() {
 
@@ -22,6 +22,20 @@ $('button').click(function(){
 
 });
 
+*/
+
+ 
+var timeURL = "http://users.metropolia.fi/~seyedhe/clock.php?param=ok";
+
+$(document).ready(function() {
+	var timer = setInterval(function(){
+	  $('p').load(timeURL);
+	}, 1000);
+
+	$('button').click(function(){
+	
+	clearInterval(timer);
+	})
 
 
-
+});

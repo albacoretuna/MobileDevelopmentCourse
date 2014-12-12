@@ -3,11 +3,12 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="styles.css">
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-	<div data-role="page">
+	<div data-role="page" id="my-page">
 
 		<div data-role="header">
 			<h1>Welcome To My Homepage</h1>
@@ -15,8 +16,9 @@
 
   <div data-role="main" class="ui-content">
 
-		<ul data-role="listview">
-			<li data-icon="location"><a href="#">Closest Shop</a></li>
+		<ul data-role="listview" id="my-listview">
+			<li data-icon="location"><a href="#">Find The Closest Shop
+			Hello <br> fs </a></li>
 			<li data-icon="bars"><a href="#">All Shops</a></li>
 			<li data-icon="heart"><a href="#">Why Buy Used Stuff?</a></li>
 			<li data-icon="info"><a href="#">Help</a></li>
@@ -25,7 +27,15 @@
 	</div>
 
 	<div data-role="footer">
-		<h1>Footer Text</h1>
+<div data-role="header">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#anylink">Home</a></li>
+      <li><a href="#anylink">Page Two</a></li>
+      <li><a href="#anylink">Search</a></li>
+    </ul>
+  </div>
+</div>
 	</div>
 
 

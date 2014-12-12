@@ -13,3 +13,5 @@
 #my-listview .ui-li {
     height : 100px;
 }*/
+
+#findclosest, #map-canvas { width: 100%; height: 70%; padding: 0; }

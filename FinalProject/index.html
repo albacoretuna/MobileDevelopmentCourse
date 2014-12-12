@@ -14,32 +14,112 @@
 			<h1>Sekender</h1>
 		</div>
 
-  <div data-role="main" class="ui-content">
+		<div data-role="content" class="ui-content">
 
-		<ul data-role="listview" id="my-listview">
-			<li data-icon="location"><a href="#">Find The Closest Shop</a></li>
-			<li data-icon="bars"><a href="#">All Shops</a></li>
-			<li data-icon="heart"><a href="#">Why Buy Used Stuff?</a></li>
-			<li data-icon="info"><a href="#">Help</a></li>
+			<ul data-role="listview" id="my-listview">
+		    <li data-icon="location"><a href="findclosest.html" data-ajax="false">Find The Closest Shop</a></li>
+			<li data-icon="bars"><a href="#pageallshops">All Shops</a></li>
+			<li data-icon="heart"><a href="#pagewhybuy" data-rel="dialog">Why Buy Used Stuff?</a></li>
+			<li data-icon="info"><a href="#popup" data-rel="dialog">Help</a></li>
 
-		</ul>
+			</ul>
+		</div>
+
+		<div data-role="footer">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+					<li><a href="#anylink">Why Used Stuff</a></li>
+					<li><a href="#my-page">Home</a></li>
+					<li><a href="#anylink">Help</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>	
 	</div>
 
-	<div data-role="footer">
-<div data-role="header">
-  <div data-role="navbar">
-    <ul>
-      <li><a href="#anylink">Home</a></li>
-      <li><a href="#anylink">Page Two</a></li>
-      <li><a href="#anylink">Search</a></li>
-    </ul>
-  </div>
-</div>
+
+
+
+	<div data-role="page" id="pageallshops">
+
+		<div data-role="header">
+			<h1>Sekender</h1>
+		</div>
+
+		<div data-role="content" class="ui-content">
+
+			<ul data-role="listview">
+		    <li> Sinikallinontie 1, Espoo</li>
+			<li> Asemakuja 3, Espoo<li>
+			<li> Merituulentie 30, Espoo<li>
+			<li> Yläkartanonkuja 1, Espoo<li>
+			</ul>
+		</div>
+
+		<div data-role="footer">
+			<div data-role="header">
+				<div data-role="navbar">
+					<ul>
+					<li><a href="#anylink">Why Used Stuff</a></li>
+					<li><a href="#my-page">Home</a></li>
+					<li><a href="#anylink">Help</a></li>
+
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<div data-role="page" id="pagewhybuy">
+
+		<div data-role="header">
+			<h1>Why Buy Used Stuff?</h1>
+		</div>
+
+		<div data-role="content" class="ui-content">
+        <H4>To Save the Nature!</H4>
+        <p>We all have to use the resources wisely.</p>
+	
+			
+		</div>
+
+		
+	</div>
+
+	<div data-role="page" id="popup">
+
+		<div data-role="header">
+			<h1>Sekender</h1>
+		</div>
+
+		<div data-role="content" class="ui-content">
+        <H4> An App To Promote Shopping  In Second Hand Stores</H4>
+        <p>Version: -2 </p>
+        <p>It's not working properly. Check back soon.</p>
+	
+			
+		</div>
+
+<div data-role="footer">
+		<h4></h4>
+	</div>
 	</div>
 
 
-</div>
 
 
-</body>
-</html>
+
+
+
+
+		
+
+
+
+
+
+
+	</body>
+	</html>
